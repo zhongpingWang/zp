@@ -11,6 +11,10 @@
     "cli",
     "脚手架"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhongpingWang/zp.git"
+  },
   "author": "ZP",
   "license": "MIT", 
   "dependencies": {
