@@ -1,10 +1,10 @@
 {
-  "name": "zp-cli",
+  "name": "zpp-cli",
   "version": "0.0.4",
   "description": "A simple CLI for creating your projects",
   "main": "index.js",
   "bin": {
-    "zp": "bin/zp"
+    "zpp": "bin/zp"
   },
   "keywords": [
     "zp",
