@@ -24,10 +24,12 @@ Open your terminal and type `zp` or `zp -h` , you'll see the help infomation bel
 
   Commands:
 
-    add|a      Add a new template
-    list|l     List all the templates
-    init|i     Generate a new project
-    delete|d   Delete a template
+    add|a           Add a new template
+    list|l          List all the templates
+    init|i          Generate a new project
+    delete|d        Delete a template
+    chorse|c        支持选择创建
+    delchrose|dc    选择删除
 
   Options:
 

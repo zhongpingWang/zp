@@ -9,7 +9,7 @@ module.exports = () => {
  	co(function *() {
   	let tplName = yield prompt('Template name: ')
   	let gitUrl = yield prompt('Git https link: ')
-  	let branch = yield prompt('Branch: ')
+  	let branch = yield prompt('Branch:(支持数组的哦，空格分开) ')
 
     if (!config.tpl[tplName]) {
       config.tpl[tplName] = {}

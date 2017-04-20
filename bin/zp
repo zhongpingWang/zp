@@ -43,6 +43,22 @@ program
 		require('../command/delete')()
 	})
 
+program
+	.command('choice')
+	.description('choice project to build')
+	.alias('c')
+	.action(() => {
+		require('../command/choice')()
+	})
+
+program
+	.command('delChoice')
+	.description('choice project to del')
+	.alias('dc')
+	.action(() => {
+		require('../command/delChoice')()
+	})
+
 program.parse(process.argv)
 
 if(!program.args.length){
